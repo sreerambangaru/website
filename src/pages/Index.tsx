@@ -10,10 +10,11 @@ import Team from "@/components/home/Team";
 import Contact from "@/components/home/Contact";
 import CTA from "@/components/home/CTA";
 import Waitlist from "@/components/home/Waitlist";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const Index = () => {
   return (
-    <>
+    <TooltipProvider>
       <Navbar />
       <main>
         <Hero />
@@ -27,7 +28,7 @@ const Index = () => {
         <CTA />
       </main>
       <Footer />
-    </>
+    </TooltipProvider>
   );
 };
 
