@@ -174,9 +174,9 @@ const teamMembers: TeamMember[] = [
     image: "",
     bio: "",
     links: {
-      linkedin: "#",
-      twitter: "#",
-      personal: "#",
+      linkedin: "",
+      twitter: "",
+      personal: "",
     },
   },
   {
@@ -185,8 +185,8 @@ const teamMembers: TeamMember[] = [
     image: "",
     bio: "",
     links: {
-      linkedin: "#",
-      twitter: "#",
+      linkedin: "",
+      twitter: "",
     },
   },
   // {
