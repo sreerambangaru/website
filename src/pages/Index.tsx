@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
@@ -19,13 +18,13 @@ const Index = () => {
       <main>
         <Hero />
         <About />
-        <Technology />
+        {/* <Technology /> */}
         <ProductDemo />
-        <Benefits />
+        {/* <Benefits /> */}
         <Team />
         <Waitlist />
-        <Contact />
-        <CTA />
+        {/* <Contact /> */}
+        {/* <CTA /> */}
       </main>
       <Footer />
     </TooltipProvider>
