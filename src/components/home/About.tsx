@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            About <span className="text-groq-purple">Groqify</span>
+            About <span className="text-[#508CA4]">Groqify</span>
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
             We're reimagining enterprise learning through the power of AI and
