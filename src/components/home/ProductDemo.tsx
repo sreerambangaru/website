@@ -29,7 +29,7 @@ const ProductDemo = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">
             Experience the{" "}
-            <span className="text-groq-purple">Future of Learning</span>
+            <span className="text-[#508CA4]">Future of Learning</span>
           </h2>
           <p className="text-gray-300 max-w-3xl mx-auto">
             Our interactive demos showcase how Groqify transforms traditional
@@ -47,14 +47,14 @@ const ProductDemo = () => {
             <TabsList className="bg-white/10 border border-white/20">
               <TabsTrigger
                 value="mobile"
-                className="data-[state=active]:bg-groq-purple data-[state=active]:text-white"
+                className="data-[state=active]:bg-[#508CA4] data-[state=active]:text-white"
               >
                 <Smartphone size={16} className="mr-2" />
                 Mobile Games
               </TabsTrigger>
               <TabsTrigger
                 value="desktop"
-                className="data-[state=active]:bg-groq-purple data-[state=active]:text-white"
+                className="data-[state=active]:bg-[#508CA4] data-[state=active]:text-white"
               >
                 <Monitor size={16} className="mr-2" />
                 Desktop Experiences

@@ -65,7 +65,7 @@ const Navbar = () => {
           <NavLinks isScrolled={isScrolled} />
           <Button
             onClick={scrollToWaitlist}
-            className="bg-[#508CA4] hover:opacity-90 transition-opacity"
+            className="bg-[#508CA4] hover:bg-[#508CA4] hover:scale-105 transition-all duration-300"
           >
             Join Waitlist
           </Button>
@@ -87,7 +87,7 @@ const Navbar = () => {
             <NavLinks isMobile={true} />
             <Button
               onClick={scrollToWaitlist}
-              className="bg-[#508CA4] w-full hover:opacity-90 transition-opacity"
+              className="bg-[#508CA4] w-full hover:bg-[#508CA4] hover:scale-105 transition-all duration-300"
             >
               Join Waitlist
             </Button>

@@ -18,8 +18,8 @@ const Hero = () => {
           <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white leading-tight">
               Revolutionizing{" "}
-              <span className="hero-text-gradient">Enterprise Learning</span>{" "}
-              with AI-Driven Games
+              <span className="text-[#508CA4]">Enterprise Learning</span> with
+              AI-Driven Games
             </h1>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto lg:mx-0">
               Empower your workforce with engaging, AI-powered learning
